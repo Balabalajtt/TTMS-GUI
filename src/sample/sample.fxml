@@ -26,8 +26,8 @@
                         <Image url="https://gss0.baidu.com/7Ls0a8Sm2Q5IlBGlnYG/sys/portraitl/item/e9bca431?t=1469519012" />
                      </image>
                   </ImageView>
-                  <Text fill="#000000b2" layoutX="56.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bug" />
-                  <Text fill="#00000086" layoutX="48.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="my name is bug" wrappingWidth="124.76318359375" />
+                  <Text fill="#000000b2" layoutX="59.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bug" wrappingWidth="48.24951171875" />
+                  <Text fill="#00000086" layoutX="59.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="my name is bug" wrappingWidth="124.76318359375" />
                </children></AnchorPane>
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="515.0" prefWidth="944.0" />
         </items>

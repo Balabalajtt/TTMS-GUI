@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <GridPane gridLinesVisible="true" hgap="10.0" vgap="10.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+             <BorderPane prefHeight="200.0" prefWidth="200.0">
+                 <top>
+                     <Label alignment="CENTER" prefHeight="20.0" prefWidth="68.0" text="一号厅" BorderPane.alignment="CENTER" />
+                 </top>
+                 <center>
+                     <Label alignment="CENTER" prefHeight="50.0" prefWidth="94.0" text="座位数：280" BorderPane.alignment="CENTER" />
+                 </center>
+                 <bottom>
+                     <Label alignment="CENTER" prefHeight="50.0" prefWidth="101.0" text="排场：12" BorderPane.alignment="CENTER" />
+                 </bottom>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+             </BorderPane><BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+             <top>
+                 <Label alignment="CENTER" prefHeight="20.0" prefWidth="68.0" text="一号厅" BorderPane.alignment="CENTER" />
+             </top>
+             <center>
+                 <Label alignment="CENTER" prefHeight="50.0" prefWidth="94.0" text="座位数：280" BorderPane.alignment="CENTER" />
+             </center>
+             <bottom>
+                 <Label alignment="CENTER" prefHeight="50.0" prefWidth="101.0" text="排场：12" BorderPane.alignment="CENTER" />
+             </bottom>
+         </BorderPane>
+             <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+                 <top>
+                     <Label alignment="CENTER" prefHeight="20.0" prefWidth="68.0" text="一号厅" BorderPane.alignment="CENTER" />
+                 </top>
+                 <center>
+                     <Label alignment="CENTER" prefHeight="50.0" prefWidth="94.0" text="座位数：280" BorderPane.alignment="CENTER" />
+                 </center>
+                 <bottom>
+                     <Label alignment="CENTER" prefHeight="50.0" prefWidth="101.0" text="排场：12" BorderPane.alignment="CENTER" />
+                 </bottom>
+             </BorderPane>
+             <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                 <top>
+                     <Label alignment="CENTER" prefHeight="20.0" prefWidth="68.0" text="一号厅" BorderPane.alignment="CENTER" />
+                 </top>
+                 <center>
+                     <Label alignment="CENTER" prefHeight="50.0" prefWidth="94.0" text="座位数：280" BorderPane.alignment="CENTER" />
+                 </center>
+                 <bottom>
+                     <Label alignment="CENTER" prefHeight="50.0" prefWidth="101.0" text="排场：12" BorderPane.alignment="CENTER" />
+                 </bottom>
+             </BorderPane>
+             <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                 <top>
+                     <Label alignment="CENTER" prefHeight="20.0" prefWidth="68.0" text="一号厅" BorderPane.alignment="CENTER" />
+                 </top>
+                 <center>
+                     <Label alignment="CENTER" prefHeight="50.0" prefWidth="94.0" text="座位数：280" BorderPane.alignment="CENTER" />
+                 </center>
+                 <bottom>
+                     <Label alignment="CENTER" prefHeight="50.0" prefWidth="101.0" text="排场：12" BorderPane.alignment="CENTER" />
+                 </bottom>
+             </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+               <top>
+                  <Label alignment="CENTER" prefHeight="20.0" prefWidth="68.0" text="一号厅" BorderPane.alignment="CENTER" />
+               </top>
+               <center>
+                  <Label alignment="CENTER" prefHeight="50.0" prefWidth="94.0" text="座位数：280" BorderPane.alignment="CENTER" />
+               </center>
+               <bottom>
+                  <Label alignment="CENTER" prefHeight="50.0" prefWidth="101.0" text="排场：12" BorderPane.alignment="CENTER" />
+               </bottom>
+            </BorderPane>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="10.0" />
+         </BorderPane.margin>
+      </GridPane>
+   </left>
+   <top>
+      <Label prefHeight="73.0" prefWidth="45.0" text="一号厅" BorderPane.alignment="CENTER" />
+   </top>
+   <right>
+      <VBox prefHeight="527.0" prefWidth="282.0" BorderPane.alignment="CENTER">
+         <children>
+            <BorderPane prefHeight="263.0" prefWidth="309.0">
+               <top>
+                  <Label text="添加影厅" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="292.0" prefWidth="309.0">
+               <top>
+                  <Label text="删除影厅" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+         </children></VBox>
+   </right>
+   <center>
+      <BorderPane prefHeight="527.0" prefWidth="718.0" BorderPane.alignment="CENTER">
+         <center>
+            <GridPane BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                   <!--<Button mnemonicParsing="false" text="    " GridPane.columnIndex="3" GridPane.rowIndex="0" />-->
+                   <!--<Button mnemonicParsing="false" text="    " GridPane.columnIndex="4" GridPane.rowIndex="0" />-->
+                   <!--<Button mnemonicParsing="false" text="    " GridPane.columnIndex="5" GridPane.rowIndex="0" />-->
+                   <!--<Button mnemonicParsing="false" text="    " GridPane.columnIndex="6" GridPane.rowIndex="0" />-->
+                   <!--<Button mnemonicParsing="false" text="    " GridPane.columnIndex="7" GridPane.rowIndex="0" />-->
+                   <!--<Button mnemonicParsing="false" text="    " GridPane.columnIndex="8" GridPane.rowIndex="0" />-->
+                   <!--<Button mnemonicParsing="false" text="    " GridPane.columnIndex="9" GridPane.rowIndex="0" />-->
+                   <!--<Button mnemonicParsing="false" text="    " GridPane.columnIndex="10" GridPane.rowIndex="0" />-->
+                   <!--<Button mnemonicParsing="false" text="    " GridPane.columnIndex="11" GridPane.rowIndex="0" />-->
+                   <!--<Button mnemonicParsing="false" text="    " GridPane.columnIndex="15" GridPane.rowIndex="0" />-->
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="3" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="4" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="6" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="7" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="8" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="9" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="10" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="11" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="15" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="7" GridPane.rowIndex="1" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="8" GridPane.rowIndex="1" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="9" GridPane.rowIndex="1" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="10" GridPane.rowIndex="1" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="11" GridPane.rowIndex="1" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="15" GridPane.rowIndex="1" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="6" GridPane.rowIndex="2" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="7" GridPane.rowIndex="2" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="8" GridPane.rowIndex="2" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="9" GridPane.rowIndex="2" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="10" GridPane.rowIndex="2" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="11" GridPane.rowIndex="2" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="15" GridPane.rowIndex="2" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="16" GridPane.rowIndex="2" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="7" GridPane.rowIndex="6" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="8" GridPane.rowIndex="6" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="9" GridPane.rowIndex="6" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="10" GridPane.rowIndex="6" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="11" GridPane.rowIndex="6" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="15" GridPane.rowIndex="6" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="16" GridPane.rowIndex="6" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="7" GridPane.rowIndex="4" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="8" GridPane.rowIndex="4" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="9" GridPane.rowIndex="4" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="10" GridPane.rowIndex="4" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="11" GridPane.rowIndex="4" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="15" GridPane.rowIndex="4" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="16" GridPane.rowIndex="4" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="7" GridPane.rowIndex="5" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="8" GridPane.rowIndex="5" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="9" GridPane.rowIndex="5" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="10" GridPane.rowIndex="5" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="11" GridPane.rowIndex="5" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="15" GridPane.rowIndex="5" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="16" GridPane.rowIndex="5" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="6" GridPane.rowIndex="7" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="7" GridPane.rowIndex="7" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="8" GridPane.rowIndex="7" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="9" GridPane.rowIndex="7" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="10" GridPane.rowIndex="7" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="11" GridPane.rowIndex="7" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="15" GridPane.rowIndex="7" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="16" GridPane.rowIndex="7" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="4" GridPane.rowIndex="8" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="6" GridPane.rowIndex="8" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="7" GridPane.rowIndex="8" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="8" GridPane.rowIndex="8" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="9" GridPane.rowIndex="8" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="10" GridPane.rowIndex="8" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="11" GridPane.rowIndex="8" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="15" GridPane.rowIndex="8" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="16" GridPane.rowIndex="8" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="2" GridPane.rowIndex="9" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="3" GridPane.rowIndex="9" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="4" GridPane.rowIndex="9" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="6" GridPane.rowIndex="9" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="7" GridPane.rowIndex="9" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="8" GridPane.rowIndex="9" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="9" GridPane.rowIndex="9" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="10" GridPane.rowIndex="9" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="11" GridPane.rowIndex="9" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="15" GridPane.rowIndex="9" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="16" GridPane.rowIndex="9" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="17" GridPane.rowIndex="9" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="14" GridPane.rowIndex="4" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="14" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="14" GridPane.rowIndex="1" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="14" GridPane.rowIndex="2" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="14" GridPane.rowIndex="6" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="14" GridPane.rowIndex="5" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="14" GridPane.rowIndex="7" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="14" GridPane.rowIndex="8" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="14" GridPane.rowIndex="9" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="13" GridPane.rowIndex="4" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="13" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="13" GridPane.rowIndex="1" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="13" GridPane.rowIndex="2" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="13" GridPane.rowIndex="6" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="13" GridPane.rowIndex="5" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="13" GridPane.rowIndex="7" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="13" GridPane.rowIndex="8" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="13" GridPane.rowIndex="9" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="12" GridPane.rowIndex="4" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="12" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="12" GridPane.rowIndex="1" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="12" GridPane.rowIndex="2" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="12" GridPane.rowIndex="6" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="12" GridPane.rowIndex="5" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="12" GridPane.rowIndex="7" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="12" GridPane.rowIndex="8" />
+                   <Button mnemonicParsing="false" text="    " GridPane.columnIndex="12" GridPane.rowIndex="9" />
+               </children>
+            </GridPane>
+         </center>
+         <top>
+            <ImageView fitHeight="42.0" fitWidth="642.0" pickOnBounds="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1522250775&amp;di=d96f948eb65ef7d2f92d45034a4e51fa&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fwww.hbzfyt.com%2F220%2Ftimg05%2Fuploaded%2Fi5%2FT167iqFd0hXXXXXXXX_%21%210-item_pic.jpg" />
+               </image>
+            </ImageView>
+         </top>
+         <bottom>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="711.0" spacing="20.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button mnemonicParsing="false" text="修改" />
+                  <Button mnemonicParsing="false" text="保存" />
+                  <Button mnemonicParsing="false" text="取消" />
+               </children>
+            </HBox>
+         </bottom>
+      </BorderPane>
+   </center>
+</BorderPane>

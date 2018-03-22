@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="manager.scheduler.Scheduler">
+    <top>
+        <HBox prefHeight="130.0" prefWidth="1200.0" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fitHeight="118.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="https://img.alicdn.com/bao/uploaded/i1/TB1tW9DceuSBuNjSsplXXbe8pXa_.jpg_300x300.jpg" />
+                    </image>
+                    <HBox.margin>
+                        <Insets left="20.0" />
+                    </HBox.margin></ImageView>
+                <ImageView fitHeight="121.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="https://img.alicdn.com/bao/uploaded/i1/TB1tW9DceuSBuNjSsplXXbe8pXa_.jpg_300x300.jpg" />
+                    </image>
+                    <HBox.margin>
+                        <Insets left="10.0" />
+                    </HBox.margin>
+                </ImageView>
+                <ImageView fitHeight="138.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="https://img.alicdn.com/bao/uploaded/i1/TB1tW9DceuSBuNjSsplXXbe8pXa_.jpg_300x300.jpg" />
+                    </image>
+                    <HBox.margin>
+                        <Insets left="10.0" />
+                    </HBox.margin>
+                </ImageView>
+                <ImageView fitHeight="117.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="https://img.alicdn.com/bao/uploaded/i1/TB1tW9DceuSBuNjSsplXXbe8pXa_.jpg_300x300.jpg" />
+                    </image>
+                    <HBox.margin>
+                        <Insets left="10.0" />
+                    </HBox.margin>
+                </ImageView>
+                <ImageView fitHeight="117.0" fitWidth="103.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="https://img.alicdn.com/bao/uploaded/i1/TB1tW9DceuSBuNjSsplXXbe8pXa_.jpg_300x300.jpg" />
+                    </image>
+                    <HBox.margin>
+                        <Insets left="10.0" />
+                    </HBox.margin>
+                </ImageView>
+            </children>
+            <BorderPane.margin>
+                <Insets top="5.0" />
+            </BorderPane.margin>
+        </HBox>
+    </top>
+   <left>
+      <AnchorPane prefHeight="430.0" prefWidth="419.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="181.0" fitWidth="136.0" layoutX="35.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://img.alicdn.com/bao/uploaded/i1/TB1tW9DceuSBuNjSsplXXbe8pXa_.jpg_300x300.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="191.0" layoutY="53.0" text="Label" />
+            <Label layoutX="190.0" layoutY="92.0" text="Label" />
+            <Label layoutX="190.0" layoutY="118.0" text="Label" />
+            <Label layoutX="190.0" layoutY="147.0" text="Label" />
+            <Label layoutX="190.0" layoutY="182.0" text="Label" />
+             <Text layoutX="37.0" layoutY="235.0" text="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111" wrappingWidth="344.85546875" />
+         </children></AnchorPane>
+   </left>
+   <right>
+      <TabPane prefHeight="465.0" prefWidth="862.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+        <tabs>
+          <Tab text="Untitled Tab 1">
+               <content>
+                      <VBox maxWidth="1200.0" prefHeight="426.0" prefWidth="786.0" spacing="5">
+                          <children>
+                          <HBox prefHeight="29.0" prefWidth="612.0">
+                              <children>
+                                  <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="163.0" text="日期" />
+                                  <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="147.0" text="时间" />
+                                  <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="177.0" text="影厅" />
+                                  <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="153.0" text="票价" />
+                                  <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="202.0" text="操作" />
+                              </children>
+                          </HBox>
+                              <HBox maxWidth="1200.0" prefWidth="1200.0">
+                                  <children>
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="163.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="144.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="175.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="154.0" text="Label" />
+                                      <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" text="购买">
+                                          <HBox.margin>
+                                              <Insets left="30.0" right="10.0" />
+                                          </HBox.margin>
+                              </Button>
+                                  </children>
+                              </HBox>
+                              <HBox maxWidth="1200.0" prefWidth="1200.0">
+                                  <children>
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="163.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="144.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="175.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="154.0" text="Label" />
+                                      <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" text="购买">
+                                          <HBox.margin>
+                                              <Insets left="30.0" right="10.0" />
+                                          </HBox.margin>
+                              </Button>
+                                  </children>
+                              </HBox>
+                              <HBox maxWidth="1200.0" prefWidth="1200.0">
+                                  <children>
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="163.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="144.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="175.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="154.0" text="Label" />
+                                      <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" text="购买">
+                                          <HBox.margin>
+                                              <Insets left="30.0" right="10.0" />
+                                          </HBox.margin>
+                              </Button>
+                                  </children>
+                              </HBox>
+                              <HBox maxWidth="1200.0" prefWidth="1200.0">
+                                  <children>
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="163.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="144.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="175.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="154.0" text="Label" />
+                                      <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" text="购买">
+                                          <HBox.margin>
+                                              <Insets left="30.0" right="10.0" />
+                                          </HBox.margin>
+                              </Button>
+                                  </children>
+                              </HBox>
+                              <HBox maxWidth="1200.0" prefWidth="1200.0">
+                                  <children>
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="163.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="144.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="175.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="154.0" text="Label" />
+                                      <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" text="购买">
+                                          <HBox.margin>
+                                              <Insets left="30.0" right="10.0" />
+                                          </HBox.margin>
+                              </Button>
+                                  </children>
+                              </HBox>
+                              <HBox maxWidth="1200.0" prefWidth="1200.0">
+                                  <children>
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="163.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="144.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="175.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="154.0" text="Label" />
+                                      <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" text="购买">
+                                          <HBox.margin>
+                                              <Insets left="30.0" right="10.0" />
+                                          </HBox.margin>
+                              </Button>
+                                  </children>
+                              </HBox>
+                              <HBox maxWidth="1200.0" prefWidth="1200.0">
+                                  <children>
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="163.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="144.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="175.0" text="Label" />
+                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="154.0" text="Label" />
+                                      <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" text="购买">
+                                          <HBox.margin>
+                                              <Insets left="30.0" right="10.0" />
+                                          </HBox.margin>
+                              </Button>
+                                  </children>
+                              </HBox>
+                          </children>
+                          <padding>
+                              <Insets top="5.0" />
+                          </padding>
+                      </VBox>
+               </content>
+          </Tab>
+          <Tab text="Untitled Tab 2">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </right>
+</BorderPane>

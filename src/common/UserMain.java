@@ -5,6 +5,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.control.TabPane;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
@@ -43,14 +45,35 @@ public class UserMain {
     }
 
     public void foreshowClick(ActionEvent actionEvent) {
-
+        contentPane.getChildren().clear();
+        Pane pane = null;
+        try {
+            pane = FXMLLoader.load(getClass().getResource("../normal/foreshow/foreshow.fxml"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        contentPane.setCenter(pane);
     }
 
     public void orderClick(ActionEvent actionEvent) {
-
+        contentPane.getChildren().clear();
+        Pane pane = null;
+        try {
+            pane = FXMLLoader.load(getClass().getResource("../normal/order/order.fxml"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        contentPane.setCenter(pane);
     }
 
     public void aboutClick(ActionEvent actionEvent) {
-
+        contentPane.getChildren().clear();
+        Pane pane = null;
+        try {
+            pane = FXMLLoader.load(getClass().getResource("../manager/about/about.fxml"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        contentPane.setCenter(pane);
     }
 }

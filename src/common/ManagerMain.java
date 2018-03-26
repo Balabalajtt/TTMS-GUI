@@ -76,17 +76,27 @@ public class ManagerMain {
 
     @FXML
     protected void ticketClick() {
-
         contentPane.getChildren().clear();
+        Pane pane = null;
+        try {
+            pane = FXMLLoader.load(getClass().getResource("../manager/ticket/ticket.fxml"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        contentPane.setCenter(pane);
 
     }
 
     @FXML
     protected void analyseClick() {
-
-
         contentPane.getChildren().clear();
-
+        Pane pane = null;
+        try {
+            pane = FXMLLoader.load(getClass().getResource("../manager/analyse/analyse.fxml"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        contentPane.setCenter(pane);
     }
 
     @FXML

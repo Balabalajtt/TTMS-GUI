@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="manager.scheduler.Scheduler">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="normal.hot.Hot">
     <top>
         <HBox prefHeight="130.0" prefWidth="1200.0" BorderPane.alignment="CENTER">
             <children>
@@ -100,7 +100,7 @@
                                       <Label alignment="CENTER" prefHeight="30.0" prefWidth="144.0" text="Label" />
                                       <Label alignment="CENTER" prefHeight="30.0" prefWidth="175.0" text="Label" />
                                       <Label alignment="CENTER" prefHeight="30.0" prefWidth="154.0" text="Label" />
-                                      <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" text="购买">
+                                      <Button onAction="#buy" mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" text="购买">
                                           <HBox.margin>
                                               <Insets left="30.0" right="10.0" />
                                           </HBox.margin>

@@ -35,7 +35,7 @@
                         <Label alignment="CENTER" prefHeight="30.0" prefWidth="144.0" text="Label" />
                         <Label alignment="CENTER" prefHeight="30.0" prefWidth="175.0" text="Label" />
                         <Label alignment="CENTER" prefHeight="30.0" prefWidth="154.0" text="Label" />
-                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" text="修改">
+                        <Button onAction="#modify" mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" text="修改">
                            <HBox.margin>
                               <Insets left="30.0" right="10.0" />
                            </HBox.margin></Button>
@@ -176,7 +176,7 @@
                   <Insets left="10.0" />
                </HBox.margin>
             </ImageView>
-            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="70.0" prefWidth="131.0" text="添加影片/场次">
+            <Button onAction="#add" alignment="CENTER" mnemonicParsing="false" prefHeight="70.0" prefWidth="131.0" text="添加影片/场次">
                <HBox.margin>
                   <Insets left="10.0" />
                </HBox.margin>

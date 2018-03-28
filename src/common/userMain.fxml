@@ -9,6 +9,8 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
 <SplitPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="579.0" prefWidth="1126.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="common.UserMain">
 
     <items>
@@ -34,7 +36,24 @@
                         <Insets bottom="10.0" left="5.0" right="5.0" top="20.0" />
                     </padding>
                 </VBox>
-                <BorderPane fx:id="contentPane" minHeight="-Infinity" minWidth="-Infinity" />
+                <BorderPane fx:id="contentPane" minHeight="-Infinity" minWidth="-Infinity" >
+                    <children>
+                        <Text layoutX="348.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="魔仙堡宝大剧院开发团队" wrappingWidth="505.0">
+                            <font>
+                                <Font name="System Bold Italic" size="45.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="476.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="专业 BUG 200年">
+                            <font>
+                                <Font size="29.0" />
+                            </font></Text>
+                        <Text layoutX="350.0" layoutY="439.0" strokeType="OUTSIDE" strokeWidth="0.0" text="魔仙：曾帅智 李影 张妍 江婷婷 朱颖">
+                            <font>
+                                <Font size="29.0" />
+                            </font>
+                        </Text>
+                    </children>
+                </BorderPane>
             </items>
         </SplitPane>
     </items>

@@ -2,9 +2,12 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
@@ -103,18 +106,26 @@
       <Label prefHeight="73.0" prefWidth="45.0" text="一号厅" BorderPane.alignment="CENTER" />
    </top>
    <right>
-      <VBox prefHeight="527.0" prefWidth="282.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="527.0" prefWidth="282.0" spacing="20.0" BorderPane.alignment="CENTER">
          <children>
-            <BorderPane prefHeight="263.0" prefWidth="309.0">
-               <top>
-                  <Label text="添加影厅" BorderPane.alignment="CENTER" />
-               </top>
-            </BorderPane>
-            <BorderPane prefHeight="292.0" prefWidth="309.0">
-               <top>
-                  <Label text="删除影厅" BorderPane.alignment="CENTER" />
-               </top>
-            </BorderPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="122.0" layoutY="4.0" text="添加影厅" />
+                  <Label layoutX="41.0" layoutY="45.0" text="影厅名" />
+                  <Label layoutX="33.0" layoutY="80.0" text="座位数量" />
+                  <Button layoutX="118.0" layoutY="121.0" mnemonicParsing="false" text="添加" />
+                  <TextField layoutX="100.0" layoutY="40.0" prefHeight="30.0" prefWidth="164.0" />
+                  <TextField layoutX="100.0" layoutY="75.0" prefHeight="30.0" prefWidth="164.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="117.0" layoutY="29.0" text="删除影厅" />
+                  <Label layoutX="37.0" layoutY="70.0" text="选择影厅" />
+                  <ChoiceBox layoutX="117.0" layoutY="65.0" prefWidth="150.0" />
+                  <Button layoutX="113.0" layoutY="120.0" mnemonicParsing="false" text="删除" />
+               </children>
+            </AnchorPane>
          </children></VBox>
    </right>
    <center>
